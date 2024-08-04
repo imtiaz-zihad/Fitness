@@ -7,11 +7,13 @@ body{
     margin: 0;
 }
 .container{
-    width: 90%;
-    margin: auto auto;
+    width: 80%;
+    margin: auto ;
     border-radius: 1rem;
+    
 }
 .banner-description{
+    margin: auto;
     background: rgb(36, 35, 35);
     background-color: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
     
@@ -67,7 +69,7 @@ h3{
 /* ----Banner Section start here---- */
 .banner-section-container{
     display: flex;
-    width: 90%;
+    width: 80%;
     margin: auto;
     justify-content: space-between;
 }
@@ -121,22 +123,59 @@ margin-top: 28px;
 
 /* banner right side */
 .button-style{
-    border-radius: 8px;
-background-color: #ff900e;
-color: white;
-padding: 20px 25px;
-font-size: 1.25rem;
-font-weight: 600;
-border: none;
+    height: 60px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    backdrop-filter: blur(20px);
+    
 }
-#ex-badge{
-    padding: 45px 42px;
-    font-size: 1.5rem;
+.banner-right .short{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.65);
+    letter-spacing: 2px;
+}
+.banner-right img{
+    position: relative;
+    
+}
+#badge-one{
+    padding: 12px 20px;
     font-weight: 500;
-    margin-left: -100px;
-    margin-top: -100px;
+    margin-left: 227px;
+    margin-top: -450px;
+    position: absolute;
+    line-height: 1;
+    
 }
-#ex-year{
-    font-size: 4rem;
+.circle{
+    width: 40px;
+height: 40px;
+background: rgb(230, 83, 60);
+border-radius: 50%;
+text-align: center;
+margin-right: 10px;
+margin-top: 3px;
+}
+#badge-two{
+    display: flex;
+    padding: 18px 22px 10px;
+    font-weight: 500;
+    margin-left: -90px;
+    margin-top: -170px;
+    position: absolute;
+    line-height: 1;
+    
+    
+    
+}
+#ex-year-one{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+#ex-year-two{
+    font-size: 1.6rem;
     font-weight: 700;
 }
