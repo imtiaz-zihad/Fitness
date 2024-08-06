@@ -351,9 +351,7 @@ width: 366px;
 height: 312px;
 border-radius: 18px;
 }
-.btn-primary{
-    width: 14rem;
-}
+
 
 @media screen and (max-width: 576px){
     .run-extra-mile{
@@ -368,8 +366,112 @@ border-radius: 18px;
         width: 100%;
         margin: 0 auto;
         margin-bottom: 20px;
+        text-align: center;
     }
     .run-extra-des{
         margin-bottom: 24px;
+    }
+    
+}
+
+
+/* BMI Calculator section */
+.bmi-calculator-description{
+    margin-top: 100px;
+}
+.bmi-calculator{
+    text-align: center;
+    color: white;
+}
+.bmi-title{
+font-size: 3rem;
+}
+.bmi-des{
+    margin-top: 14px;
+font-size: 0.875rem;
+color: rgba(255, 255, 255, 0.5);
+margin-bottom: 88px;
+}
+.chart-full-des{
+    width: 100%;
+   height: 100%;
+    background: rgb(34, 34, 34);
+}
+.chart-full-content{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    justify-content: space-around;
+}
+.calculate-chart-left h4{
+    margin-bottom: 52px;
+    text-align: left;
+    font-size: 28px;
+    margin-top: 52px;
+}
+table {  
+    border-collapse: collapse;
+    width: 310px;
+    height: 216px;
+}
+th, td {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    padding: 8px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;          
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+
+.calculate-chart-right h4{
+    font-size: 28px;
+    margin-bottom: 14px;
+    text-align: left;
+    margin-top: 49px;
+}
+.calculate-chart-right p{
+    margin-bottom: 34px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    text-align: left;
+}
+/* Box here */
+
+ .input-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px
+} 
+.input-box input,select{
+    color: rgba(255, 255, 255, 0.6);
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    height: 48px;
+}
+.input-box button{
+    margin-top: 35px;
+}
+select{
+    height: 58px;
+}
+#activity-factor{
+    grid-column: span 2;
+}
+
+
+@media screen and (max-width: 576px){
+    .chart-full-content{
+        flex-direction: column;
+    }
+    .chart-full-des{
+        width: 100%;
+       /* height: 555px; */
+        background: rgb(34, 34, 34);
     }
 }
