@@ -5,14 +5,19 @@ body{
 }
 *{
     margin: 0;
+    padding: 0;
+  
 }
 .container{
     width: 80%;
     margin: auto ;
     border-radius: 1rem;
     
+    
+    
 }
 .banner-description{
+    height: 100%;
     margin: auto;
     background: rgb(36, 35, 35);
     background-color: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
@@ -81,6 +86,7 @@ h3{
     text-align: left;
     margin-top: 85px;
     color: white;
+    width: 100%;
    
 }
 .shape{
@@ -166,10 +172,7 @@ margin-top: 3px;
     margin-left: -90px;
     margin-top: -170px;
     position: absolute;
-    line-height: 1;
-    
-    
-    
+    line-height: 1;  
 }
 #ex-year-one{
     font-size: 2.5rem;
@@ -178,4 +181,86 @@ margin-top: 3px;
 #ex-year-two{
     font-size: 1.6rem;
     font-weight: 700;
+}
+.three-dot{
+    display: none;
+}
+/* Responsivle  */
+@media screen and (max-width: 600px){
+    /* body {
+        overflow-x: hidden;
+    } */
+    * {
+        border: 1px solid red;
+    }
+    .container{
+        width: 90%;
+        margin: 0rem auto;
+        /* border-radius: 1rem; */
+    }
+    h3{
+        font-size: 28px;
+    }
+    .nav-option{
+        display: none;
+    }
+    .three-dot{
+        display: block;
+    }
+    .three-dot i{
+        font-size: 26px;
+    }
+    /* Banner section */
+    .banner-section-container{
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .banner-left h2{
+        font-size: 36px;
+        margin-top: 51px;
+    }
+    .shape{
+        font-size: 36px;
+    }
+    .banner-text-des{
+        font-size: 16px;
+        width: 260px;
+    }
+
+    .btn-primary{
+        padding: 0.7rem 0.9rem;
+    }
+    
+    /* Banner right */
+    .button-style{
+        height: 50px;
+        width: 83px;
+    }
+    #badge-one{
+        margin-left: 190px;
+        margin-top: -530px;
+    }
+    #badge-two{
+        margin-left: 30px;
+        margin-top: -320px;
+        width: 110px;
+    }
+    #ex-year-one{
+        font-size: 28px;
+        font-weight: 700;
+    }
+    #ex-year-two{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .banner-right{
+        width: 80%;
+    }
+    .banner-right .short{
+        font-size: 8px;
+        letter-spacing: 0px;
+    }
+
 }
