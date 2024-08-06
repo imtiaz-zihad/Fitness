@@ -317,3 +317,59 @@ margin-top: 3px;
     }
     
 }
+
+/* Run extra mile Section */
+.run-extra-mile-description{
+    width: 90%;
+    border-radius: 18px;
+    margin: 0 auto;
+    backdrop-filter: blur(20px);
+    color: white;
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.run-extra-mile{
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.run-extra-title{
+    font-size: 3rem;
+    margin-bottom: 14px;
+}
+.run-extra-des{
+    font-size: 14px;
+    margin-bottom: 34px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.run-extra-right img{
+width: 366px;
+height: 312px;
+border-radius: 18px;
+}
+.btn-primary{
+    width: 14rem;
+}
+
+@media screen and (max-width: 576px){
+    .run-extra-mile{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .run-extra-title{
+        font-size: 2rem;
+    }
+    .btn-primary{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .run-extra-des{
+        margin-bottom: 24px;
+    }
+}
