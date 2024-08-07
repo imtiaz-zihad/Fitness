@@ -455,7 +455,8 @@ td{
     height: 48px;
 }
 .input-box button{
-    margin-top: 35px;
+    margin-top: 15px;
+    margin-bottom: 40px;
 }
 select{
     height: 58px;
@@ -475,3 +476,60 @@ select{
         background: rgb(34, 34, 34);
     }
 }
+
+
+/* Meet Our Team Section */
+
+.meet-our-team h2{
+    margin-top: 88px;
+    color: white;
+    font-size: 3rem;
+font-weight: 900;
+text-align: center;
+}
+.meet-our-team p{
+   margin-top: 14px;
+   font-size: 0.875rem; 
+   text-align: center;
+   color: rgba(255, 255, 255, 0.5);
+   margin-bottom: 58px;
+}
+.trainer-section{
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    height: 604px;
+    grid-template-columns: repeat(auto-fit ,minmax(400px,1fr));
+    grid-gap: 5px;
+    
+}
+.trainer-box {
+   margin-top: 10px;
+   margin-left: 15px;
+   margin-right: 15px;
+}
+.trainer-box img{
+    border-radius: 18px;
+    width: 100%;
+    height: 280px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.box-desxription{
+    /* display: none; */
+    position: absolute;
+    margin-left: 17px;
+    margin-top: -70px;
+      
+}
+.box-desxription h3{
+font-size: 22px;
+color: white;
+}
+.box-desxription p{
+    margin-top: 7px;
+    text-align: left;
+} 
