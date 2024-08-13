@@ -153,11 +153,24 @@ margin-top: 28px;
 #badge-one{
     padding: 12px 20px;
     font-weight: 500;
-    margin-left: 227px;
-    margin-top: -450px;
+    left: 82%;
+    top:36%;
+    
     position: absolute;
     line-height: 1;
     
+}
+#badge-two{
+    display: flex;
+    padding: 18px 22px 10px;
+    font-weight: 500;
+    /* margin-left: -90px;
+    margin-top: -170px; */
+    left: 60%;
+    top:77%;
+    
+    position: absolute;
+    line-height: 1;  
 }
 .circle{
     width: 40px;
@@ -168,15 +181,7 @@ text-align: center;
 margin-right: 10px;
 margin-top: 3px;
 }
-#badge-two{
-    display: flex;
-    padding: 18px 22px 10px;
-    font-weight: 500;
-    margin-left: -90px;
-    margin-top: -170px;
-    position: absolute;
-    line-height: 1;  
-}
+
 #ex-year-one{
     font-size: 2.5rem;
     font-weight: 700;
@@ -241,12 +246,12 @@ margin-top: 3px;
         width: 83px;
     }
     #badge-one{
-        margin-left: 160px;
-        margin-top: -430px;
+       left: 45%;
+       top: 60%;
     }
     #badge-two{
-        margin-left: 30px;
-        margin-top: -280px;
+        left: 7%;
+        top: 78%;
         width: 110px;
     }
     #ex-year-one{
@@ -421,6 +426,7 @@ table {
     border-collapse: collapse;
     width: 310px;
     height: 216px;
+    width: 100%;
 }
 th, td {
     border: 2px solid rgba(255, 255, 255, 0.1);
@@ -451,7 +457,8 @@ td{
  .input-box{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px
+    gap: 10px;
+    
 } 
 .input-box input,select{
     color: rgba(255, 255, 255, 0.6);
@@ -482,7 +489,16 @@ select{
        /* height: 555px; */
         background: rgb(34, 34, 34);
     }
+    .input-box input,.input-box select{
+        color: rgba(255, 255, 255, 0.6);
+        border: none;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+       width: 90%;
+       
+    }
 }
+    
 
 
 /* Meet Our Team Section */
